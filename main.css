@@ -13,12 +13,14 @@ p {
     margin-top: auto;
 }
 
-#bigtitle{
-    font-size: xx-large;
+#introduction{
+    font-family:'Courier New', Courier, monospace;
+    font: bold;
     align-items: center;
-    color: purple;
+    margin-left:400px;
+    
 }
-#navbar{
+.navbar{
     background-color: darkgray;
     align-items: center;
 }
