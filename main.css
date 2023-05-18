@@ -35,6 +35,7 @@ p {
     background-color: black;
     height: 50px;
     margin:auto;
+    padding:50px;
 }
 .navbar #link{
     display: inline-block;
@@ -42,15 +43,14 @@ p {
     color: white;
     /* margin-top:13px; */
     height: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+
     margin:auto
 
 }
 
 #buttonlist{
-    width:50%;
-    padding: 16px;
+    width:100%;
+    padding: 48px;
     margin:auto;
 }
 #button1{
@@ -61,5 +61,4 @@ p {
     font: bold;
     background-color: black;
     color:white;
-    padding: 50px;
 }
