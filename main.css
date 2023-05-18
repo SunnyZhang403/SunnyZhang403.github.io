@@ -52,11 +52,10 @@ p {
 
 #buttonlist{
     display: inline-block;
-    width:50%;
     margin-top: 100px;
     padding-left: 48px;
     padding-right: 48px;
-    margin:auto;
+    margin:25%;
     align-items: center;
 }
 #button1{
