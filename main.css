@@ -9,6 +9,7 @@ p {
     color: red;
 }
 
-big title{
+#bigtitle{
+    font-size: xx-large;
     color: purple;
 }
