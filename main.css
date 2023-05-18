@@ -58,7 +58,7 @@ p {
     padding-right: 48px;
     text-align: center;
 }
-.button-container #button1{
+#button1{
     height:48px;
     width: 128px;
     text-align: center;
@@ -80,8 +80,8 @@ p {
   }
   
   /* Images used */
-  .img1 { background-image: url("Actuator\ on\ Cloth\ Picture.png"); }
-  .img2 { background-image: url("RSX\ Arm\ Render.png"); }
+#img1 { background-image: url("Actuator\ on\ Cloth\ Picture.png"); }
+#img2 { background-image: url("RSX\ Arm\ Render.png"); }
   /* Position text in the middle of the page/image */
   .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
