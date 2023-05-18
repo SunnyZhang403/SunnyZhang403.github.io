@@ -62,11 +62,13 @@ p {
     padding-left: 48px;
     padding-right: 48px;
     text-align: center;
+    margin:auto
 }
 .button-container #button1{
     height:48px;
     width: 128px;
     text-align: center;
+    margin:auto;
     font-family: Arial, Helvetica, sans-serif;
     font: bold;
     background-color: black;
