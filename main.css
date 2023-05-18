@@ -14,13 +14,18 @@ p {
 }
 
 #introduction{
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font: bold;
     align-items: center;
-    margin-left:400px;
+
     
 }
 .navbar{
     background-color: darkgray;
+    height: 50px;
+}
+.navbar a{
     align-items: center;
+    margin:auto;
+
 }
