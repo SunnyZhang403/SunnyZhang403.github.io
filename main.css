@@ -25,7 +25,9 @@ p {
     height: 50px;
 }
 .navbar a{
+    display:block;
     align-items: center;
-    margin:auto;
+    margin-top:25px;
+    padding:14px;
 
 }
