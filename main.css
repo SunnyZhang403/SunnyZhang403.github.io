@@ -13,7 +13,10 @@ p {
     margin-top: auto;
 }
 #title{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font:bold;
+    text-align: center;
+    margin:auto;
 }
 #introduction{
     font-family: Arial, Helvetica, sans-serif;
@@ -21,6 +24,7 @@ p {
     font-size: 24px;
     align-self: center;
     text-align: center;
+    margin:auto;
     max-width: 500px;
 
     
@@ -31,9 +35,9 @@ p {
 }
 .navbar #link{
     display: inline-block;
-    align-items: center;
-    margin-top:25px;
+    margin-top:13px;
     padding:14px;
+    margin:auto
 
 }
 
