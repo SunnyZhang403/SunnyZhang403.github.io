@@ -12,14 +12,17 @@ p {
     margin-left: auto;
     margin-top: auto;
 }
-#title{
+.myheader{
+    text-align:center;
+}
+.myheader #title{
     font-family: Arial, Helvetica, sans-serif;
     font:bold;
     color:black;
     text-align: center;
     margin-top: 200px;
 }
-#introduction{
+.myheader #introduction{
     font-family: Arial, Helvetica, sans-serif;
     font: light;
     font-size: 24px;
