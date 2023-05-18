@@ -1,15 +1,24 @@
 body {
-    background-color:palegreen;
+    background-color: white;
 }
 
 h1 {
     color:blue;
+    align-items: center;
 }
 p {
-    color: red;
+    color: black;
+    align-items: left;
+    margin-left: auto;
+    margin-top: auto;
 }
 
 #bigtitle{
     font-size: xx-large;
+    align-items: center;
     color: purple;
+}
+#navbar{
+    background-color: darkgray;
+    align-items: center;
 }
