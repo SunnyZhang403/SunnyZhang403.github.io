@@ -63,7 +63,7 @@ p {
     padding-right: 48px;
     text-align: center;
 }
-#button1{
+.button-container #button1{
     height:48px;
     width: 128px;
     text-align: center;
