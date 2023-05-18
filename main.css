@@ -27,7 +27,6 @@ p {
     text-align: center;
     margin-top: 16px;
     max-width: 500px;
-    margin-bottom: 48px;
 
     
 }
@@ -55,7 +54,6 @@ p {
     margin-top: 100px;
     padding-left: 48px;
     padding-right: 48px;
-    margin:25%;
     text-align: center;
 }
 .button-container #button1{
@@ -66,4 +64,6 @@ p {
     font: bold;
     background-color: black;
     color:white;
+    padding-left:48px;
+    padding-right:48px;
 }
