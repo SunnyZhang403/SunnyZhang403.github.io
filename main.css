@@ -150,7 +150,9 @@ p {
     font-weight: bold;
 }
 .project #description-img{
-    display: inline-block;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 
 }
 .project .img-container{
