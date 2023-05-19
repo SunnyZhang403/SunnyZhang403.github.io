@@ -13,7 +13,7 @@ p {
 }
 
 .intro-section{
-    background-color: turquoise;
+    background-color: white;
     height: 50%;
     
 
@@ -33,7 +33,6 @@ p {
     color:black;
     text-align: center;
     padding-top: 200px;
-    background-color: white;
 }
 .intro-section #introduction{
     font-family: Arial, Helvetica, sans-serif;
