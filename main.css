@@ -70,7 +70,7 @@ p {
     text-align: center;
     margin:auto;
     font-family: Arial, Helvetica, sans-serif;
-    font: bold;
+    font-weight: bold;
     background-color: black;
     color:white;
 
@@ -85,3 +85,17 @@ p {
     background-color: black;
     color:white;
 }
+
+.bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("Actuator\ on\ Cloth\ Picture.jpg"); }
+  .img2 { background-image: url("RSX\ Arm\ Render.png"); }
