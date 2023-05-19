@@ -110,11 +110,15 @@ p {
     background-size: cover;
   }
   
-  /* Images used */
-.introduction{
-    background-color: white;
-}
+
   .img1 { 
     background-image: url("Actuator on Cloth Picture.jpg"); 
 }
   .img2 { background-image: url("RSX Arm Render.png"); }
+
+  .intro-section{
+    background-color: turquoise;
+  }
+  .projects{
+    background-color: purple;
+  }
