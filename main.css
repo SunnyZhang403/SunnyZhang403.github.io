@@ -133,6 +133,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
   }
   .projects .container1{
     padding-top: 500px;
@@ -140,8 +141,8 @@ p {
     text-align: center;
   }
   .projects .container1 .container2{
-    height: 300px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
     background-color: white;
     border-color: black;
     border-radius: 16px;
