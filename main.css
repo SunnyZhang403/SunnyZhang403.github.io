@@ -15,6 +15,7 @@ p {
 .intro-section{
     background-color: turquoise;
     height: 50%;
+    
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -31,7 +32,7 @@ p {
     font:bold;
     color:black;
     text-align: center;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     background-color: turquoise;
 }
 .intro-section #introduction{
@@ -39,7 +40,7 @@ p {
     font: light;
     font-size: 24px;
     text-align: center;
-    margin-top: 16px;
+    padding-top: 16px;
     margin:auto;
     max-width: 500px;
 
