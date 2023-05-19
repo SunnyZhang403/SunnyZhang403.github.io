@@ -148,6 +148,7 @@ p {
 
 }
 .project #img{
+    align-self: right;
     max-height: 500px;
     max-width: 500px;
 }
