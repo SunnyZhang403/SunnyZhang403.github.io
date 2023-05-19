@@ -145,10 +145,7 @@ p {
 
     height: 100px;
     width: 300px;
-    background-color: white;
-    border-color: black;
-    border-radius: 16px;
-    color: black;
+
     text-align: center;
   }
   .projects #title{
