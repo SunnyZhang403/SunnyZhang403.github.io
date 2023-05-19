@@ -151,7 +151,7 @@ p {
     height: 100px;
     width: 300px;
     margin: auto;
-
+    background-color: white;
     text-align: center;
   }
   .projects #title{
