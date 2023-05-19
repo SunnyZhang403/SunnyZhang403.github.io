@@ -147,7 +147,8 @@ p {
     background-color: white;
     border-color: black;
     border-radius: 16px;
-    color: black
+    color: black;
+    text-align: center;
   }
   .projects .container2 #title{
     font-size: 48px;
