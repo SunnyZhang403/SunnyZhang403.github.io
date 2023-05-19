@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    /* background-color: white; */
     background-image: url("Actuator on Cloth Picture.jpg");
 }
 
@@ -39,6 +39,13 @@ p {
     height: 50px;
     margin:auto;
     text-align: center;
+}
+
+.navbar #link {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar button:hover {
     background-color: #ddd;
