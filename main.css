@@ -124,7 +124,7 @@ p {
   .img2 { background-image: url("RSX Arm Render.png"); }
 
 
-  .projects{
+.projects{
 
     background-image: url("Actuator on Cloth Picture.jpg");
     height: 50%;
@@ -140,7 +140,7 @@ p {
     padding-bottom:500px;
     text-align: center;
 }
-  .projects .container1 .container2{
+  .projects .container2{
 
     height: 100px;
     width: 300px;
