@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    background-image: url("Actuator on Cloth Picture.jpg");
 }
 
 h1 {
@@ -97,5 +98,7 @@ p {
   }
   
   /* Images used */
-  .img1 { background-image: url("Actuator\ on\ Cloth\ Picture.jpg"); }
-  .img2 { background-image: url("RSX\ Arm\ Render.png"); }
+  .img1 { 
+    background-image: url("Actuator on Cloth Picture.jpg"); 
+}
+  .img2 { background-image: url("RSX Arm Render.png"); }
