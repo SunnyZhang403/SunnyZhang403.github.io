@@ -141,6 +141,10 @@ p {
     text-align: center;
     align-items: center;
 }
+.projects .test{
+    height: 100px;
+    width: 100px;
+}
   .projects .container2{
 
     height: 100px;
