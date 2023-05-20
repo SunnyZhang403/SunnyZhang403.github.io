@@ -121,16 +121,6 @@ p {
     align-items: center;
 }
 
-.projects .container2 {
-    /* top: 250px; */
-    height: 150px;
-    width: 300px;
-    margin: auto;
-    background-color: white;
-    text-align: center;
-    z-index: 2;
-}
-
 .projects .container2 .title {
     font-size: 48px;
     color: black;
@@ -155,7 +145,7 @@ p {
     align-items: center;
 }
 
-.research .container2 {
+.container2 {
     /* top: 250px; */
     height: 150px;
     width: 300px;
@@ -163,6 +153,7 @@ p {
     background-color: white;
     text-align: center;
     z-index: 2;
+    border-radius: 16px;
 }
 
 .research .container2 .title {
