@@ -121,7 +121,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-
+    padding-top:500px;
+    
   }
 .projects .myheader2{
 
@@ -130,13 +131,14 @@ p {
 }
 .projects .container2{
     position: fixed;
-
+    top: 500px;
     height: 100px;
     width: 300px;
-    transform: translate(50%,50%);
+
     margin: auto;
     background-color: white;
     text-align: center;
+    z-index: 2;
   }
 .projects .container2 .title{
     font-size: 48px;
