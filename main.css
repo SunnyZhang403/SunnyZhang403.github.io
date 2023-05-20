@@ -231,3 +231,27 @@ p {
     max-width: 200px;
     max-height: 200px;
 }
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button2 span:after {
+    background-color: white;
+    color: black;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.button2:hover span {
+    padding-right: 25px;
+}
+
+.button2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
