@@ -226,26 +226,7 @@ p {
     max-height: 50%;
 } */
 
-.button2 #span2 {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button2 #span2:after {
+.button2:hover {
     background-color: white;
     color: black;
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.button2:hover #span2 {
-    padding-right: 25px;
-}
-
-.button2:hover #span2:after {
-    opacity: 1;
-    right: 0;
 }
