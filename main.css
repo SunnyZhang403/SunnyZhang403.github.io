@@ -171,10 +171,11 @@ p {
 }
 .description-img{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 .image{
+    align-items: right;
     max-height: 100px;
     max-width: 100px;
 }
