@@ -131,7 +131,7 @@ p {
     align-items: center;
 }
 .projects .container2{
-    top: 250px;
+    /* top: 250px; */
     height: 100px;
     width: 300px;
     margin: auto;
