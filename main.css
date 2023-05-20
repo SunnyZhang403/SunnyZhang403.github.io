@@ -169,7 +169,7 @@ p {
     font-weight: bold;
 
 }
-.project #description-img{
+.description-img{
     display: flex;
     align-items: center;
     justify-content: center;
