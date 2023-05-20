@@ -130,11 +130,8 @@ p {
     align-items: center;
 }
 .projects .container2{
-    position: fixed;
-    top: 500px;
     height: 100px;
     width: 300px;
-    transform: translate(500px);
     margin: auto;
     background-color: white;
     text-align: center;
