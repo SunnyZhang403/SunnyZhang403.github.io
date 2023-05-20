@@ -113,7 +113,7 @@ p {
 
 .projects{
 
-    background-image: url("Actuator on Cloth Picture.jpg");
+    background-image: url("RSX.HEIC");
     height: 50%;
 
     /* Center and scale the image nicely */
@@ -146,6 +146,52 @@ p {
     font-weight: bold;
   }
 .projects .container2 #button1{
+    height:48px;
+    width: 128px;
+    text-align: center;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+
+}
+
+.research{
+
+    background-image: url("Actuator on Cloth Picture.jpg");
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top:500px;
+    padding-bottom:500px;
+    
+  }
+.research .myheader2{
+
+    text-align: center;
+    align-items: center;
+}
+.research .container2{
+    /* top: 250px; */
+    height: 150px;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    z-index: 2;
+  }
+.research .container2 .title{
+    font-size: 48px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+.research .container2 #button1{
     height:48px;
     width: 128px;
     text-align: center;
