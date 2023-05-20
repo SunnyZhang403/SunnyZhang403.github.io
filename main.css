@@ -93,7 +93,7 @@ p {
     margin: auto
 }
 
-#button2 {
+.button2 {
     height: 48px;
     width: 128px;
     text-align: center;
