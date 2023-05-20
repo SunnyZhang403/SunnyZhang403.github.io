@@ -138,6 +138,7 @@ p {
 .projects .container2 .title{
     font-size: 48px;
     color:black;
+    background-color: transparent;
     padding-top: 500px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
