@@ -209,6 +209,7 @@ p {
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
+    display:block;
 }
 .project #project-title{
     font-family: Arial, Helvetica, sans-serif;
@@ -227,4 +228,8 @@ p {
 }
 .text{
     font-size: 20px;
+    min-width: 500px;
+}
+.spacer{
+    height: 20px;
 }
