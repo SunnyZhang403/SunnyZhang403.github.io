@@ -231,3 +231,7 @@ p {
     background-color: white;
     color: black;
 }
+.image #portrait{
+    width: auto;
+    height:auto;
+}
