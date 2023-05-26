@@ -235,3 +235,6 @@ p {
     max-width: 200px;
     max-height: 200px;
 }
+.bio{
+    display:inline-block
+}
