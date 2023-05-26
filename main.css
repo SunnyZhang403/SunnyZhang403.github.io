@@ -231,11 +231,11 @@ p {
     background-color: white;
     color: black;
 }
-.image #portrait{
-    max-width: 200px;
-    max-height: 200px;
+.bio .image {
+    max-width: 400px;
+    max-height: 400px;
 }
 .bio{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
