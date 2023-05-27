@@ -83,15 +83,6 @@ p {
     cursor: pointer;
 }
 
-#link {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 50px;
-    margin: auto
-}
 
 .button2 {
     height: 48px;
