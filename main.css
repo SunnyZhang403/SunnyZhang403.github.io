@@ -191,6 +191,7 @@ p {
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    margin-top: -10px;
 }
 
 .button1 span:after {
