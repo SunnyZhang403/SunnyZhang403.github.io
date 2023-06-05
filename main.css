@@ -243,5 +243,7 @@ p {
     text-align: center;
 }
 .contact-button{
+    height: 32px;
+    width: 100px;
     border-radius: 4px;
 }
