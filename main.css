@@ -250,9 +250,8 @@ p {
 
 
 
-/* Slideshow container */
 * {box-sizing: border-box}
-.mySlides1, .mySlides2 .mySlides3{display: none}
+.mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -284,9 +283,6 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
-.prev{
-    left:0;
-}
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
