@@ -288,3 +288,8 @@ img {vertical-align: middle;}
   background-color: #f1f1f1;
   color: black;
 }
+
+.slideshow-img{
+    max-width: 600px;
+    max-height: 600px;
+}
