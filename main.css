@@ -259,6 +259,7 @@ img {vertical-align: middle;}
   max-width: 600px;
   position: relative;
   margin: auto;
+  text-align: center;
 }
 
 /* Next & previous buttons */
