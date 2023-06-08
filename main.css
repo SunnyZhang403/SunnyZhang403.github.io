@@ -283,6 +283,11 @@ img {vertical-align: middle;}
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+.prev{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+
+}
 
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
