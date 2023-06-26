@@ -296,6 +296,6 @@ img {vertical-align: middle;}
 }
 
 .slideshow-img{
-    width: 600px;
-    /* height: 600px; */
+    /* width: 600px; */
+    height: 400px;
 }
