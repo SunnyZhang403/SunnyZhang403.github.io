@@ -122,7 +122,6 @@ p {
 }
 
 .research {
-    background-image: url("Actuator on Cloth Picture.jpg");
     height: 50%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -172,6 +171,9 @@ p {
     text-align: center;
 }
 
+#description {
+    text-align: center;
+}
 .image {
     max-height: 100px;
     max-width: 100px;
