@@ -32,9 +32,18 @@ body {
     align-items: center;
   }
   
+  .intro-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
   .intro-left img {
     max-width: 150px;
     border-radius: 50%;
+    margin-bottom: 20px;
   }
   
   .intro-right {
@@ -116,4 +125,15 @@ body {
   .project .slideshow img:first-child {
     display: block;
   }
+  .center-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
   
+  /* Project Titles Above Slideshows */
+  .project h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
