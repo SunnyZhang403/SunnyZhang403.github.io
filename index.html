@@ -1,67 +1,72 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-<title>Home</title>
 <body>
-    <div class="navbar">
-        <button type="button" onclick="location.href = 'index.html';" class="button2"><span>Home</span></button>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-        <button type="button" onclick="location.href = 'projects.html';" class="button2"><span>Projects</span></button>
-        <button type="button" onclick="location.href = 'research.html';" class="button2"><span>Research</span></button>
-        <button type="button" onclick="location.href = 'contact.html';" class="button2"><span>Contact</span></button>
+  <!-- Intro Section Part 1 -->
+  <header id="intro">
+    <div class="intro-left">
+      <img src="your-image.jpg" alt="Your Name">
     </div>
-    <div class="intro-section">
-        <div class="myheader">
-            <h1 id="title">Welcome! My name is Sunny.</h1>
-            <h2 id="introduction">I'm an aspiring research engineer with a passion for robotics, neurotechnology, and wearables! Scroll down or see the links below for more on my work.</h2>
+    <div class="intro-right">
+      <h1>Your Name</h1>
+      <p>Brief introduction about yourself. Highlight your key interests or achievements!</p>
+      <button onclick="location.href='projects.html'">My Projects</button>
+      <button onclick="location.href='research.html'">My Research</button>
+    </div>
+  </header>
+
+  <!-- Intro Section Part 2 -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-content">
+      <div class="projects-left">
+        <button onclick="location.href='projects.html#project1'">Project 1</button>
+        <button onclick="location.href='projects.html#project2'">Project 2</button>
+        <button onclick="location.href='projects.html'">See More</button>
+      </div>
+      <div class="projects-right">
+        <div class="slideshow">
+          <img src="project1.jpg" alt="Project 1">
+          <img src="project2.jpg" alt="Project 2">
+          <img src="project3.jpg" alt="Project 3">
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class = "intro-photo">
-            <img src = "sunny-dvrk.jpg">
+  <!-- Intro Section Part 3 -->
+  <section id="research">
+    <h2>Research</h2>
+    <div class="research-content">
+      <div class="research-left">
+        <button onclick="location.href='research.html#research1'">Research 1</button>
+        <button onclick="location.href='research.html#research2'">Research 2</button>
+        <button onclick="location.href='research.html'">See More</button>
+      </div>
+      <div class="research-right">
+        <div class="slideshow">
+          <img src="research1.jpg" alt="Research 1">
+          <img src="research2.jpg" alt="Research 2">
+          <img src="research3.jpg" alt="Research 3">
         </div>
-
-        <div class="button-container">
-            <button type="button" onclick="location.href = 'projects.html';" class="button1"><span>PROJECTS</span></button>
-            <button type="button" onclick="location.href = 'contact.html';" class="button1"><span>CONTACT</span></button>
-            <button type="button" onclick="location.href = 'research.html';" class="button1"><span>RESEARCH</span></button>
-
-
-        </div>
+      </div>
     </div>
-    </div>
-
-    <div class="projects">
-        <div>
-            <div class="container2">
-                <h1 class = "title">
-                    PROJECTS
-                </h1>
-                <button type="button" onclick="location.href = 'projects.html';" class="button1"><span>See more...</span></button>
-
-            </div>
-        </div>
-    </div>
-    <div class="spacer">
-
-    </div>
-    <div class="research">
-        <div>
-            <div class="container2">
-                <h1 class="title">
-                    RESEARCH
-                </h1>
-                <button type="button" onclick="location.href = 'research.html'" class="button1"><span>See more...</span></button>
-
-            </div>
-        </div>
-    </div>
-    <div class="bg-image img2"></div>
-
-
+  </section>
 </body>
-
 </html>

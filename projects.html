@@ -1,61 +1,52 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<title>Research</title>
 <body>
-    <div class="navbar">
-        <button type="button" onclick="location.href = 'index.html';" class="button2"><span>Home</span></button>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-        <button type="button" onclick="location.href = 'projects.html';" class="button2"><span>Projects</span></button>
-        <button type="button" onclick="location.href = 'research.html';" class="button2"><span>Research</span></button>
-        <button type="button" onclick="location.href = 'contact.html';" class="button2"><span>Contact</span></button>
-    </div>
-
-    <div class="project">
-        <h2 id="project-title">
-            Robots for Space Exploration
-        </h2>
-        <hr>
-        <div class="description-img">
-
-            <img src="RSX.jpg" class="image">
-            <div class="text">
-                <p id="description">
-                    Robots for Space Exploration is a design team at the University of Toronto that designs a rover each year to participate in competitions with teams from other universities, completing tasks such as autonomous navigation, tool manipulation, and search and rescue. Aboard our rover, there is a six degree of freedom arm. In the 2022-2023 season, I was responsible for designing four out of the six degrees of freedom of the arm (essentially the entire arm except for the wrist and end effector). I created detailed CAD models of each of the joints and cooperated with the other arm team members to optimize the arms length and weight. Once finished several iterations of the design, I was also involved in the assembly process, in which we used stock aluminum and carbon fiber tubing to construct the arm.
-                </p>
-
-            </div>
+  <!-- Projects Section -->
+  <main>
+    <h1>My Projects</h1>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project">
+        <div class="slideshow" id="project1-slideshow">
+          <img src="project1-img1.jpg" alt="Project 1 Image 1">
+          <img src="project1-img2.jpg" alt="Project 1 Image 2">
+          <img src="project1-img3.jpg" alt="Project 1 Image 3">
         </div>
-    </div>
+        <p><strong>Skills Used:</strong> Python, Machine Learning</p>
+        <p>This project involves building a predictive model for analyzing customer data...</p>
+      </div>
 
-    <div class="project">
-        <h2 id="project-title">
-            Spider Robot
-        </h2>
-        <hr>
-        <div class="description-img">
-            <p id="description">
-                Partly inspired by the robots built by Boston Dynamics, I aimed to bulid an octopedal robot usable for search and rescue applications. These robots would be applicable both as indiviudla units, but also as a swarm, covering large areas automatically. Compared to aerial drones, robots on the ground would be able to better assist and identify, accessing areas that would be deemed unflyable or inaccessible to humans. So far, I've made significant progress on the design and actuation of the legs, though it is still very much a work in progress.
-            </p>
-            <!-- <img src = "RSX Arm Render.png" id = "img"> -->
+      <!-- Project 2 -->
+      <div class="project">
+        <div class="slideshow" id="project2-slideshow">
+          <img src="project2-img1.jpg" alt="Project 2 Image 1">
+          <img src="project2-img2.jpg" alt="Project 2 Image 2">
+          <img src="project2-img3.jpg" alt="Project 2 Image 3">
         </div>
+        <p><strong>Skills Used:</strong> JavaScript, Frontend Development</p>
+        <p>This project focuses on creating a dynamic, responsive website for an online store...</p>
+      </div>
+
+      <!-- Add more projects here -->
     </div>
-
-    <div class="project">
-        <h2 id="project-title">
-            Magnetic Accelerator
-        </h2>
-        <hr>
-        <div class="description-img">
-            <p id="description">
-                WORK IN PROGRESS
-            </p>
-            <!-- <img src = "RSX Arm Render.png" id = "img"> -->
-        </div>
-    </div>
-
-
+  </main>
 </body>
+<script src="scripts.js"></script>
+</html>
