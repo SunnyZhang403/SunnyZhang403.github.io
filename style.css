@@ -71,6 +71,7 @@ body {
   
   .projects-left, .research-left {
     align-items: center;
+    text-align: center;
     flex: 1;
   }
   
@@ -82,7 +83,7 @@ body {
   }
   
   .slideshow img {
-    width: 500px;
+    height: 500px;
     display: none;
     border-radius: 10px;
   }
@@ -126,3 +127,73 @@ body {
   .project .slideshow img:first-child {
     display: block;
   }
+
+  /* Contact Section Layout */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+.contact-left {
+  flex: 1;
+  text-align: center;
+}
+
+.contact-left img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+/* Form Styles */
+.contact-right {
+  flex: 1;
+}
+
+.contact-right h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea, form button {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #555;
+}
