@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(() => {
       currentSlide = (currentSlide + 1) % slides.length;
       showSlide(currentSlide);
-    }, 3000); // 3 seconds per slide
+    }, 5000); // 3 seconds per slide
 
     // Manual Controls
     slideshow.addEventListener("click", () => {
