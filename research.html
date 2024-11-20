@@ -1,133 +1,52 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="main.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<title>Research</title>
 <body>
-    <div class="navbar">
-        <button type="button" onclick="location.href = 'index.html';" class="button2"><span>Home</span></button>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-        <button type="button" onclick="location.href = 'projects.html';" class="button2"><span>Projects</span></button>
-        <button type="button" onclick="location.href = 'research.html';" class="button2"><span>Research</span></button>
-        <button type="button" onclick="location.href = 'contact.html';" class="button2"><span>Contact</span></button>
-    </div>
-    <div class="project">
-        <h2 id="project-title">
-            Providing Haptic Feedback with Soft Robotics using Di-electric Elastomers
-        </h2>
- 
-        <hr>
-
-        <div class="slideshow-container">
-          <div class="mySlides1">
-            <img src="Actuator on Cloth Picture.jpg" class = "slideshow-img">
-          </div>
-        
-          <div class="mySlides1">
-            <img src="Sensor Picture.jpg" class = "slideshow-img">
-          </div>
-        
-
-        
-          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-    
+  <!-- Projects Section -->
+  <main>
+    <h1>My Research</h1>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project">
+        <div class="slideshow" id="research1-slideshow">
+          <img src="research1-img1.jpg" alt="Project 1 Image 1">
+          <img src="project1-img2.jpg" alt="Project 1 Image 2">
+          <img src="project1-img3.jpg" alt="Project 1 Image 3">
         </div>
-        <h3 id="header">
-            Summary
-        </h3>
-        <div class="project-img">
-            <p id="description">
-                One of the issues users of prosthetics currently face is a lack of proprioception. Proprioception refers to ones ability to sense where their limbs are relative to their own body. One key factor in proprioception is the ability to feel, or a sense of touch. Modern prosthetics, while becoming quite adept in movement and control still lack the abilty to give the user this sense of touch, at least to a high degree. The use of soft robotics allows prosthetics to accurately simulate the shape and physical properties of tissue and skin. Soft robotics sensors can provide more accurate sensory data than rigid sensors for this reason. This project aims to use dielectric elastomers, a material used as an electromechanical transducer, as both sensors and actuators in a glove-like device providing haptic feedback to the user. I was responsible for the design of the glove device, as well as preparation of dielectric devices for characterization and implementation. I was also responsible for prototyping a 3D printed device used to characterize the force applied by the actuators.
-            </p>
-            <!-- <img src = "RSX Arm Render.png" id = "img"> -->
+        <p><strong>Skills Used:</strong> Python, Machine Learning</p>
+        <p>This project involves building a predictive model for analyzing customer data...</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project">
+        <div class="slideshow" id="research2-slideshow">
+          <img src="project2-img1.jpg" alt="Project 2 Image 1">
+          <img src="project2-img2.jpg" alt="Project 2 Image 2">
+          <img src="project2-img3.jpg" alt="Project 2 Image 3">
         </div>
+        <p><strong>Skills Used:</strong> JavaScript, Frontend Development</p>
+        <p>This project focuses on creating a dynamic, responsive website for an online store...</p>
+      </div>
+
+      <!-- Add more projects here -->
     </div>
-
-
-    <div class="project">
-        <h2 id="project-title">
-            Ultrasoft Conductive Bottlebrush Elastomer Polymers for Neurological Signal Processing
-        </h2>
-        <hr>
-
-        <div class="slideshow-container">
-            <div class="mySlides2">
-              <img src="Actuator on Cloth Picture.jpg" class="slideshow-img">
-            </div>
-          
-            <div class="mySlides2">
-              <img src="Portrait.JPG" class = "slideshow-img">
-            </div>
-          
-            <div class="mySlides2">
-              <img src="RSX Arm Render.png" class="slideshow-img">
-            </div>
-          
-            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-          </div>
-     
-
-    </div>
-
-        <h3 id="header">
-            Abstract
-        </h3>
-            
-    </div>
-
-
-        <div class="project-img">
-            <p id="description">
-                hello world
-            </p>
-            <!-- <img src = "RSX Arm Render.png" id = "img"> -->
-        </div>
-
-    <div class="project">
-        <h2 id="project-title">
-            Distinguishing Surgical Implants and Contraband in Security Contexts Using Radar
-        </h2>
-
-            
-    </div>
-        <hr>
-        <div class="slideshow-container">
-            <div class="mySlides3">
-              <img src="Plane Wave Source Settings.PNG" class="slideshow-img">
-            </div>
-          
-            <div class="mySlides3">
-              <img src="Hands Up Pose.PNG" class = "slideshow-img">
-            </div>
-          
-            <div class="mySlides3">
-              <img src="Hands Down Pose.PNG" class="slideshow-img">
-            </div>
-          
-            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-          </div>
-     
-        <h3 id="header">
-            Summary
-        </h3>
-
-
-    </div>
-    
-        <div class="project-img">
-            <p id="description">
-            </p>
-            While tried and tested for many years, use of metal detection in security settings is often suboptimal, with various harmless metal objects triggering false positives and causing unnecessary wasted time and distress for all those involved. This is the key motivation for this project - finding a different way to detect contraband such as weapons while reducing the number of false positives caused by things like surgical implants. This project aims to use radar data to differentiate between the two. Because this project was conducted between 2020 and 2021, mostly remotely, we used simulation software to collect data, rather than collecting data in real life simulated security settings. The software used is called SIM4Life. I was responsible for creating and automating simulations, as well as the collection and processing of data from the simulations. Because SIM4Life is an incredibly niche software, I needed to self-teach the ins and outs of the software, as well as how to integrate the data collection smoothly with Python scripts to feed into a machine learning model. Unfortunately, this project was ended before conclusive results were collected due to logistical issues with the simulation software
-            <!-- <img src = "RSX Arm Render.png" id = "img"> -->
-        </div>
-    </div>
-
-    <script src = "index.js"></script>
+  </main>
 </body>
+<script src="index.js"></script>
 </html>
