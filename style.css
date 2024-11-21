@@ -122,11 +122,13 @@ body {
 
 .slideshow {
   position: relative;
-  height: 400px;
+  height: 600px;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 20px;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .slideshow img:first-child {
@@ -164,8 +166,10 @@ body {
   .project .slideshow {
     position: relative;
     align-self:center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    height: 400px;
+    height: 600px;
     width: 100%;
     margin-bottom: 15px;
   }
