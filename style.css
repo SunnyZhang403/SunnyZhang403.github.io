@@ -90,7 +90,6 @@ body {
   
   .slideshow img {
     height: 500px;
-    max-width: 500px;
     display: none;
     border-radius: 10px;
   }
@@ -116,7 +115,8 @@ body {
   
   .project .slideshow {
     position: relative;
-    height: 200px;
+    align-self:center;
+    height: 400px;
     margin-bottom: 15px;
   }
   
