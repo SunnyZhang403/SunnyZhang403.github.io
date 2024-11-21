@@ -80,14 +80,12 @@ body {
   
   .projects-left, .research-left {
     align-items: center;
+    justify-content: center;
     vertical-align: middle;
     text-align: center;
     flex: 1;
   }
 
-  .projects-left h2, .research-left h2 {
-    align-self: center;
-  }
   
   .projects-right, .research-right {
     flex: 1;
@@ -111,6 +109,9 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+  }
+  .center-title{
+    text-align: center;
   }
   
   .project {
