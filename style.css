@@ -124,6 +124,7 @@ body {
 
 .slideshow {
   display:flex;
+  flex-direction: column;
   position: relative;
   height: 500px;
   width: 75%;
@@ -168,6 +169,7 @@ body {
   
   .project .slideshow {
     display:flex;
+    flex-direction: column;
     position: relative;
     align-self:center;
     justify-content: center;
