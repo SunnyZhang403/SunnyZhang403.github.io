@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,57 +19,53 @@
     </ul>
   </nav>
 
-  <!-- Intro Section Part 1 -->
-  <header id="intro">
-    <div class="intro-left">
-      <img src="sunny-dvrk.jpg" alt ="">
-    </div>
-    <div class="intro-right">
-      <h1>Sunny Zhang</h1>
-      <p>Hi my name is Sunny! I'm a robotics engineering student at the University of Toronto and I have a passion for all things robotics. I have experience in surgical robotics, space robotics, deep learning, and robotic simulation. Please check out some of my projects to see what I've been up to!</p>
-      <button onclick="location.href='projects.html'">My Projects</button>
-      <button onclick="location.href='research.html'">My Research</button>
-    </div>
-  </header>
-
-  <!-- Intro Section Part 2 -->
-  <section id="projects">
-    <h2 class = "center-title">Projects</h2>
-    <div class="projects-content">
-      <div class="projects-left">
-        <button onclick="location.href='projects.html#project1'">Project 1</button>
-        <button onclick="location.href='projects.html#project2'">Project 2</button>
-        <button onclick="location.href='projects.html'">See More</button>
+  <!-- Intro Page Content -->
+  <main>
+    <!-- Intro Section -->
+    <header id="intro">
+      <div class="intro-left">
+        <img src="sunny-dvrk.jpg" alt ="">
       </div>
-      <div class="projects-right">
+      <div class="intro-right">
+        <h1>Sunny Zhang</h1>
+        <p>Hi my name is Sunny! I'm a robotics engineering student at the University of Toronto and I have a passion for all things robotics. I have experience in surgical robotics, space robotics, deep learning, and robotic simulation. Please check out some of my projects to see what I've been up to!</p>
+        <button onclick="location.href='projects.html'">My Projects</button>
+        <button onclick="location.href='research.html'">My Research</button>
+      </div>
+    </header>
+
+    <!-- Projects and Research Section -->
+    <section class="side-by-side">
+      <!-- Projects -->
+      <div class="projects-section">
+        <h2>Projects</h2>
         <div class="slideshow">
           <img src="RSX.jpg" alt="">
           <img src="ica output.png" alt="Project 2">
           <img src="img_0100.jpg" alt="Project 3">
         </div>
+        <div class="buttons">
+          <a href="projects.html#project1" class="btn">Project 1</a>
+          <a href="projects.html#project2" class="btn">Project 2</a>
+          <a href="projects.html" class="btn">See More</a>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Intro Section Part 3 -->
-  <section id="research">
-    <h2 class = "center-title">Research</h2>
-    <div class="research-content">
-      <div class="research-left">
-        <button onclick="location.href='research.html#research1'">Research 1</button>
-        <button onclick="location.href='research.html#research2'">Research 2</button>
-        <button onclick="location.href='research.html'">See More</button>
-      </div>
-      <div class="research-right">
+      <!-- Research -->
+      <div class="research-section">
+        <h2>Research</h2>
         <div class="slideshow">
           <img src="dvrk_tools.jpg" alt="Research 1">
           <img src="3D printed elbow.jpg" alt="Research 2">
           <img src="materials.PNG" alt="Research 3">
         </div>
+        <div class="buttons">
+          <a href="research.html#research1" class="btn">Research 1</a>
+          <a href="research.html#research2" class="btn">Research 2</a>
+          <a href="research.html" class="btn">See More</a>
+        </div>
       </div>
-    </div>
-  </section>
-
+    </section>
+  </main>
 </body>
-<script src="index.js"></script>
 </html>
