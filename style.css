@@ -130,13 +130,13 @@ body {
   display: block;
 }
 
-  .slideshow img {
+.slideshow img {
     height: 500px;
     display: none;
     border-radius: 10px;
   }
   
-  .slideshow img:first-child {
+.slideshow img:first-child {
     display: block;
   }
   /* Grid Structure */
