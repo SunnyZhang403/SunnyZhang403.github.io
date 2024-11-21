@@ -77,8 +77,8 @@ body {
     flex: 1;
   }
 
-  .projects-left h2, .research-left h2{
-    text-align: center;
+  .projects-left h2, .research-left h2 {
+    align-self: center;
   }
   
   .projects-right, .research-right {
