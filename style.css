@@ -66,6 +66,7 @@ body {
   
   .projects-content, .research-content {
     display: flex;
+    text-align: center;
     justify-content: space-between;
   }
   
@@ -89,6 +90,7 @@ body {
   
   .slideshow img {
     height: 500px;
+    max-width: 500px;
     display: none;
     border-radius: 10px;
   }
