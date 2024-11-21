@@ -124,7 +124,7 @@ body {
 .slideshow {
   position: relative;
   height: 500px;
-  width: 100%;
+  width: 75%;
   margin: 0 auto;
   margin-bottom: 20px;
   overflow: hidden;
