@@ -23,7 +23,15 @@ body {
     color: white;
     padding: 5px 10px;
   }
-  
+
+  h1 {
+    align-self: center;
+  }
+
+  h2 {
+    align-self: center;
+  }
+
   /* Intro Section Part 1 */
   #intro {
     display: flex;
@@ -117,6 +125,7 @@ body {
     position: relative;
     align-self:center;
     height: 400px;
+    width: 600px;
     margin-bottom: 15px;
   }
   
